@@ -1,0 +1,13 @@
+{
+  "layers": [
+    {"units": 24, "activation": "sigmoid", "weights_initializer": "heUniform"},
+    {"units": 24, "activation": "sigmoid", "weights_initializer": "heUniform"},
+    {"units": 24, "activation": "sigmoid", "weights_initializer": "heUniform"}
+  ],
+  "output": {"weights_initializer": "heUniform"},
+  "loss": "binaryCrossentropy",
+  "learning_rate": 0.0314,
+  "batch_size": 8,
+  "epochs": 84,
+  "seed": 42
+}
